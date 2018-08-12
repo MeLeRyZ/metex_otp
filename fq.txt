@@ -1,0 +1,31 @@
+=== OTP includes:
+     The Erlang interpreter and compiler
+     Erlang standard libraries
+     Dialyzer, a static analysis tool
+     Mnesia, a distributed database
+     Erlang Term Storage ( ETS ), an in-memory database
+     A debugger
+     An event tracer
+     A release-management tool
+____________________________________________________________
+== GenServer like-a-server:
+     Spawning the server process
+     Maintaining state within the server
+     Handling requests and sending responses
+     Stopping the server process
+== GenServer business-logic:
+     The state with which you want to initialize the server
+     The kinds of messages the server handles
+     When to reply to the client
+     What message to use to reply to the client
+     What resources to clean up after termination
+____________________________________________________________
+GenServer   => Implementing the server of a client-server relationship
+
+GenEvent    => Implementing event-handling functionality
+
+Supervisor  => Implementing supervision functionality
+
+Application => Working with applications and defining application callbacks
+____________________________________________________________
+iex> :observer.start
